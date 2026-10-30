@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الدعم · Plate Go</title>
+<meta name="description" content="صفحة الدعم لتطبيق Plate Go — Support page for the Plate Go iOS app.">
+<style>
+  :root {
+    --bg: #0B1426;
+    --surface: #14203A;
+    --outline: #2A3A5E;
+    --text: #F5F7FB;
+    --muted: #8C9BBB;
+    --accent: #C6F432;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 72px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0 8px;
+  }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex: none; }
+  .wordmark { font-weight: 800; letter-spacing: 0.4px; direction: ltr; }
+  h1 { font-size: 28px; line-height: 1.3; margin: 16px 0 4px; }
+  h2 { font-size: 19px; color: var(--accent); margin: 36px 0 8px; }
+  .updated { color: var(--muted); font-size: 14px; margin-top: 0; }
+  a { color: var(--accent); }
+  .contact {
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    background: var(--surface);
+    border: 1px solid var(--outline);
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    direction: ltr;
+  }
+  .contact:hover { border-color: var(--accent); }
+  .lang-switch {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border: 1px solid var(--outline);
+    border-radius: 10px;
+    background: var(--surface);
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .lang-switch:hover { border-color: var(--accent); }
+  ul { padding-inline-start: 22px; }
+  li { margin-bottom: 8px; }
+  section.en { direction: ltr; text-align: left; }
+  hr { border: 0; border-top: 1px solid var(--outline); margin: 56px 0 0; }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <span class="dot"></span>
+    <span class="wordmark">Plate Go</span>
+  </header>
+
+  <!-- ============== العربية ============== -->
+  <section id="ar" lang="ar" dir="rtl">
+    <h1>الدعم</h1>
+    <p class="updated">Plate Go · تطبيق تتبع التمارين</p>
+    <a class="lang-switch" href="#en">Read in English</a>
+
+    <p>هل تحتاج مساعدة أو لديك اقتراح؟ راسلنا وسنرد عليك في أقرب وقت.</p>
+    <a class="contact" href="mailto:Plategoo.app@gmail.com">Plategoo.app@gmail.com</a>
+
+    <h2>أسئلة شائعة</h2>
+    <ul>
+      <li><strong>أين تُحفظ بياناتي؟</strong> على جهازك فقط. لا يحتاج التطبيق إلى حساب ولا يرسل تمارينك إلى أي خادم. التفاصيل في <a href="./">سياسة الخصوصية</a>.</li>
+      <li><strong>كيف أحذف بياناتي؟</strong> من داخل التطبيق: المزيد ثم بياناتي ثم حذف جميع بياناتي. حذف التطبيق يزيل البيانات أيضاً.</li>
+      <li><strong>ما الذي تتيحه الباقة المجانية؟</strong> ثلاثة تمارين لكل عضلة. الاشتراك يفتح عدداً غير محدود.</li>
+      <li><strong>كيف ألغي الاشتراك؟</strong> من إعدادات حساب Apple على جهازك: الإعدادات ثم اسمك ثم الاشتراكات. الإلغاء يتم عبر Apple وليس داخل التطبيق.</li>
+      <li><strong>اشتركت ولم تُفتح الميزات.</strong> افتح شاشة الاشتراك واضغط «استعادة المشتريات»، وتأكد أنك تستخدم حساب Apple نفسه الذي اشتريت به.</li>
+    </ul>
+
+    <h2>روابط</h2>
+    <p><a href="./">سياسة الخصوصية</a></p>
+  </section>
+
+  <hr>
+
+  <!-- ============== English ============== -->
+  <section id="en" class="en" lang="en" dir="ltr">
+    <h1>Support</h1>
+    <p class="updated">Plate Go · workout tracking app</p>
+    <a class="lang-switch" href="#ar">اقرأ بالعربية</a>
+
+    <p>Need help, or have a suggestion? Email us and we will get back to you.</p>
+    <a class="contact" href="mailto:Plategoo.app@gmail.com">Plategoo.app@gmail.com</a>
+
+    <h2>Common questions</h2>
+    <ul>
+      <li><strong>Where is my data stored?</strong> On your device only. The app needs no account and sends your workouts nowhere. See the <a href="./">privacy policy</a>.</li>
+      <li><strong>How do I delete my data?</strong> In the app: المزيد → بياناتي → حذف جميع بياناتي. Deleting the app also removes it.</li>
+      <li><strong>What does the free tier include?</strong> Three exercises per muscle group. A subscription removes the limit.</li>
+      <li><strong>How do I cancel a subscription?</strong> In your Apple account settings: Settings → your name → Subscriptions. Cancelling is handled by Apple, not inside the app.</li>
+      <li><strong>I subscribed but nothing unlocked.</strong> Open the subscription screen and tap "استعادة المشتريات" (Restore Purchases), and check you are signed in with the same Apple Account you purchased with.</li>
+    </ul>
+
+    <h2>Links</h2>
+    <p><a href="./">Privacy policy</a></p>
+  </section>
+
+  <footer>Plate Go · الدعم / Support</footer>
+
+</main>
+</body>
+</html>

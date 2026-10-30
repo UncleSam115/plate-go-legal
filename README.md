@@ -2,7 +2,11 @@
 
 The public privacy policy for the **Plate Go** iOS app, in Arabic and English.
 
-Live: https://unclesam115.github.io/plate-go-legal/
+Live:
+- Privacy policy: https://unclesam115.github.io/plate-go-legal/
+- Support: https://unclesam115.github.io/plate-go-legal/support.html
+
+Both URLs are required fields in App Store Connect.
 
 This repository is public only so GitHub Pages can serve it; the App Store
 requires a publicly reachable privacy policy URL. The app's source is private.
